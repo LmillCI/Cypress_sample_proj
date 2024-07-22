@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts":{
-    "build": "npx cypress open"
+    "build": "npx cypress run --browser chrome"
   },
    "keywords": [],
   "author": "",
