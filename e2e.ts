@@ -8,9 +8,9 @@
 // You can change the location of this file or turn off
 // automatically serving support files with the
 // 'supportFile' configuration option.
-{
-  "supportFile": false
-}
+
+  supportFile: false
+
 
 //
 // You can read more here:
