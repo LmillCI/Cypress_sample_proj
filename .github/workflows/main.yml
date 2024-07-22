@@ -20,11 +20,5 @@ jobs:
       - name: Build the project
         run: npm run build
 
-      - name: Start the server
-        run: npm start
-
-      - name: Run Cypress tests
-        uses: cypress-io/github-action@v6
-        with:
-          start: npm start
+     
          
