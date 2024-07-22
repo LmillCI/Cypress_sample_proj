@@ -9,14 +9,8 @@ module.exports = defineConfig({
     embeddedScreenshots: true,
     inlineAssets: true,
   },
- 
-  supportFile : false,
-
-
-
   video :true,
   e2e: {
-    projectId: "hfgkk7",
     setupNodeEvents(on, config) {
       // implement node event listeners here
       require('cypress-mochawesome-reporter/plugin')(on);
