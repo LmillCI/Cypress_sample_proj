@@ -9,6 +9,11 @@ module.exports = defineConfig({
     embeddedScreenshots: true,
     inlineAssets: true,
   },
+ {
+  "supportFile": false
+}
+
+
   video :true,
   e2e: {
     projectId: "hfgkk7",
