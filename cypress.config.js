@@ -10,7 +10,7 @@ module.exports = defineConfig({
     inlineAssets: true,
   },
  
-  supportFile : false
+  supportFile : false,
 
 
 
