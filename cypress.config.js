@@ -9,9 +9,9 @@ module.exports = defineConfig({
     embeddedScreenshots: true,
     inlineAssets: true,
   },
- {
-  "supportFile": false
-}
+ 
+  supportFile : false
+
 
 
   video :true,
