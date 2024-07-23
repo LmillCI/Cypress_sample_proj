@@ -14,10 +14,9 @@ jobs:
       with:
         node-version: '20'
 
-    - name: Install Dependencies
-      run: npm install
 
     - name: Run Cypress Tests
       uses: cypress-io/github-action@v6
       with:
+        build: npm run build
         browser: chrome
