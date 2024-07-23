@@ -9,7 +9,7 @@
 // automatically serving support files with the
 // 'supportFile' configuration option.
 
-  supportFile: false
+ 
 
 
 //
